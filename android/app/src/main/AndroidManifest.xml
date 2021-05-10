@@ -4,6 +4,8 @@
     package="com.example.imagetotext">
 
    <uses-permission android:name="android.permission.INTERNET"/>
+   <uses-permission android:name="android.permission.CAMERA" />
+   <uses-permission android:name="android.permission.MICROPHONE" />
    <application
         android:label="imagetotext"
         android:icon="@mipmap/ic_launcher">

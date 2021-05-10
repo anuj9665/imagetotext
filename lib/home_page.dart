@@ -95,18 +95,16 @@ class _HomePageState extends State<HomePage> {
               return Container(
                 width: double.infinity,
                 color: Colors.white,
-                child: Expanded(
-                  child: Container(
-                    margin: EdgeInsets.all(30.0),
-                    decoration: BoxDecoration(
-                      border: Border.all(),
-                      borderRadius: BorderRadius.circular(15.0),
-                    ),
-                    child: SingleChildScrollView(
-                      child: Text(
-                        processedText,
-                        style: TextStyle(fontSize: 23.0),
-                      ),
+                child: Container(
+                  margin: EdgeInsets.all(30.0),
+                  decoration: BoxDecoration(
+                    border: Border.all(),
+                    borderRadius: BorderRadius.circular(15.0),
+                  ),
+                  child: SingleChildScrollView(
+                    child: Text(
+                      processedText,
+                      style: TextStyle(fontSize: 23.0),
                     ),
                   ),
                 ),
