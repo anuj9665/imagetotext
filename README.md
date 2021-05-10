@@ -1,7 +1,10 @@
 # imagetotext
 
-A new Flutter project.
+This Project Reads Text From Image
 
+APK Version
+
+https://drive.google.com/file/d/1W1-HFZqVs9YWjxxlv82WHsowC2zeibF-/view?usp=sharing
 
 
 OUTPUT
